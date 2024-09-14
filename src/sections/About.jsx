@@ -15,7 +15,7 @@ const About = () => {
     };
 
     return (
-        <section className="c-space my-20">
+        <section id="about" className="c-space my-20">
             <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
@@ -24,8 +24,7 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">Hi, I am Arya a Full Stack Web Developer</p>
                             <p className="grid-subtext">I am a Web Developer with a passion for building user-friendly
-                                websites. I am currently working at Sunken Services, LLC. To gain more more professional
-                                knowledge and experience. I am a great team player and I have a strong understanding of
+                                websites. I am a great team player and I have a strong understanding of
                                 Front-End and Back-End development.</p>
                         </div>
 

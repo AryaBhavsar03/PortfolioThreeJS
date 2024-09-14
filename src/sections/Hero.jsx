@@ -22,7 +22,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <section className="min-h-screen w-full flex flex-col relative">
+        <section id="home" className="min-h-screen w-full flex flex-col relative">
             <div className="w-full h-full absolute inset-0 z-0">
                 <Canvas className="w-full h-full">
                     <Suspense fallback={<CanvasLoader />}>
