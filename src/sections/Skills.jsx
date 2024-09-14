@@ -4,7 +4,7 @@ const Skills = () => {
     return (
         <section className="c-space my-20">
             <p className="head-text">My Skills</p>
-            <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 mt-12 gap-5 h-full">
+            <div className="grid xl:grid-cols-3 xl:grid-rows-3 md:grid-cols-2 grid-cols-1 mt-12 gap-5 h-full">
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
                         <div className="flex justify-center items-center">

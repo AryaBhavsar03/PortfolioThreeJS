@@ -21,47 +21,51 @@ export const navLinks = [
     },
 ];
 
-export const clientReviews = [
-    {
-        id: 1,
-        name: 'Emily Johnson',
-        position: 'Marketing Director at GreenLeaf',
-        img: 'assets/review1.png',
-        review:
-            'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-    },
-    {
-        id: 2,
-        name: 'Mark Rogers',
-        position: 'Founder of TechGear Shop',
-        img: 'assets/review2.png',
-        review:
-            'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-    },
-    {
-        id: 3,
-        name: 'John Dohsas',
-        position: 'Project Manager at UrbanTech ',
-        img: 'assets/review3.png',
-        review:
-            'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-    },
-    {
-        id: 4,
-        name: 'Ether Smith',
-        position: 'CEO of BrightStar Enterprises',
-        img: 'assets/review4.png',
-        review:
-            'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-    },
-];
-
 export const myProjects = [
+    {
+        title: 'Java Game Developer - Sunken Services, LLC',
+        desc: 'Minecraft is a sandbox video game developed by Mojang Studios. The game allows players to build servers with custom plugins and mods. I worked as a Java game developer for one of the most popular skyblock servers in the game.',
+        subdesc:
+            'I developed custom plugins and mods for the server using Java. The plugins added new features and mechanics to the game, enhancing the player experience. I also optimized the server performance and fixed bugs to ensure smooth gameplay for all players. I collaborated with other developers and server staff to implement new ideas and features, contributing to the growth and success of the server.' +
+            'The server has a large player base and is known for its unique gameplay and features. My work as a Java game developer also included managing databases, creating custom commands, and implementing anti-cheat systems. I gained valuable experience in game development and server management, honing my skills in Java programming and software development.',
+        texture: '/textures/project/project2.mp4',
+        logo: '/assets/Hellbounds_Logo.png',
+        logoStyle: {
+            backgroundColor: '#2A1816',
+            border: '0.2px solid #36201D',
+            boxShadow: '0px 0px 60px 0px #AA3C304D',
+        },
+        spotlight: '/assets/spotlight1.png',
+        tags: [
+            {
+                id: 1,
+                name: 'Java',
+                path: 'assets/java-logo-1.png',
+            },
+            {
+                id: 2,
+                name: 'Database',
+                path: 'assets/databases.png',
+            },
+            {
+                id: 3,
+                name: 'Gitlab',
+                path: 'assets/gitlab-logo-500.svg',
+            },
+            {
+                id: 4,
+                name: 'Notion',
+                path: 'assets/notion.svg',
+            }
+        ],
+    },
+
     {
         title: 'AgarioHub User Page - A User Page for Players',
         desc: 'AgarioHub is a game that allows players to control a cell in a map. The goal is to gain mass by eating other cells and become the largest cell in the game. The user page is a platform where players can track their progress, view their stats, and connect with other players.',
         subdesc:
-            'The user page is built using JavaScript, CSS, and HTML. It features a clean and intuitive design that allows players to easily navigate the platform. The page is responsive and works seamlessly on all devices, providing an optimal user experience.',
+            'The user page is built using JavaScript, CSS, and HTML. It features a clean and intuitive design that allows players to easily navigate the platform. The page is responsive and works seamlessly on all devices, providing an optimal user experience.' +
+            ' Players can log in to the user page using their AgarioHub account and access their stats, achievements, and leaderboard rankings. They can also connect with other players, shop skins, and participate in events. The user page enhances the overall gaming experience and fosters a sense of community among players.',
         href: 'https://github.com/AryaBhavsar03/ahub-player-page',
         texture: '/textures/project/project1.mp4',
         logo: '/assets/AgarioHub_Logo.png',
@@ -101,33 +105,3 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
         targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
     };
 };
-
-export const workExperiences = [
-    {
-        id: 1,
-        name: 'Framer',
-        pos: 'Lead Web Developer',
-        duration: '2022 - Present',
-        title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-        icon: '/assets/framer.svg',
-        animation: 'victory',
-    },
-    {
-        id: 2,
-        name: 'Figma',
-        pos: 'Web Developer',
-        duration: '2020 - 2022',
-        title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-        icon: '/assets/figma.svg',
-        animation: 'clapping',
-    },
-    {
-        id: 3,
-        name: 'Notion',
-        pos: 'Junior Web Developer',
-        duration: '2019 - 2020',
-        title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-        icon: '/assets/notion.svg',
-        animation: 'salute',
-    },
-];

@@ -39,7 +39,7 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">Tech Stack</p>
                             <p className="grid-subtext">I am knowledgable in many languages and APIs with my main focus
-                                being on Angular, JavaScript, TypeScript and React.</p>
+                                being on Java, JavaScript, TypeScript, Angular, and React.</p>
                         </div>
                     </div>
                 </div>
