@@ -22,9 +22,9 @@ const About = () => {
                         <img src="/assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain"/>
 
                         <div>
-                            <p className="grid-headtext">Hi, I am Arya a Full Stack Web Developer</p>
-                            <p className="grid-subtext">I am a Web Developer with a passion for building user-friendly
-                                websites. I am a great team player and I have a strong understanding of
+                            <p className="grid-headtext">Hi, I am Arya</p>
+                            <p className="grid-subtext">I am a Full Stack Developer with a passion for building user-friendly
+                                applications and websites. I am a great team player and I have a strong understanding of
                                 Front-End and Back-End development.</p>
                         </div>
 
@@ -38,7 +38,7 @@ const About = () => {
 
                         <div>
                             <p className="grid-headtext">Tech Stack</p>
-                            <p className="grid-subtext">I am knowledgable in many languages and APIs with my main focus
+                            <p className="grid-subtext">I am knowledgeable in many languages and APIs with my main focus
                                 being on Java, JavaScript, TypeScript, Angular, and React.</p>
                         </div>
                     </div>
@@ -93,7 +93,8 @@ const About = () => {
                             <p className="grid-subtext text-center">Contact me</p>
                             <div className="copy-container" onClick={handleCopy}>
                                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy"/>
-                                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">Copy Email</p>
+                                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">Copy
+                                    Email</p>
                             </div>
                         </div>
                     </div>

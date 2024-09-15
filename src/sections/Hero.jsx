@@ -32,7 +32,7 @@ const Hero = () => {
                 </Canvas>
             </div>
             <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3 z-10">
-                <p className="sm:text-3xl text-2xl font-medium text-white text-center font-generalsans">
+                <p className="sm:text-3xl text-2xl font-medium text-white text-center font-generalsans mb-10 mt-28">
                     Hi, I am <span className="text-logo">Arya Bhavsar </span>
                 </p>
                 <p className="hero_tag text-gray_gradient">

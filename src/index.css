@@ -5,6 +5,41 @@
 @tailwind components;
 @tailwind utilities;
 
+.filter-white {
+  filter: invert(100%);
+}
+
+.tech-logo-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tech-logo-container:hover .tech-name {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tech-name {
+  visibility: hidden;
+  opacity: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -50px;
+  width: 100px;
+  transition: opacity 0.3s;
+}
+
+.tech-logo-container:hover {
+  box-shadow: 0 0 10px white;
+}
+
 .text-logo {
   font-family: 'Clicker Script', cursive;
   font-size: 40px;

@@ -31,7 +31,7 @@ const Projects = () => {
 
     return (
         <section id="work" className="c-space my-20">
-            <p className="head-text">My Selected Work</p>
+            <p className="head-text">Experience</p>
 
             <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full">
                 <div className="flex flex-col gap-5 relative sm:p-10 py-10 px-5 shadow-2xl shadow-black-200">
@@ -53,8 +53,9 @@ const Projects = () => {
                     <div className="flex items-center justify-between flex-wrap gap-5 mt-auto">
                         <div className="flex items-center gap-3">
                             {currentProject.tags.map((tag, index) => (
-                                <div key={index} className="tech-logo">
-                                    <img src={tag.path} alt={tag.name}/>
+                                <div key={index} className="tech-logo-container">
+                                    <img src={tag.path} alt={tag.name} className="tech-logo" />
+                                    <span className="tech-name">{tag.name}</span>
                                 </div>
                             ))}
                         </div>
