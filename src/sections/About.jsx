@@ -22,8 +22,8 @@ const About = () => {
                         <img src="/assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain"/>
 
                         <div>
-                            <p className="grid-headtext">Hi, I am Arya</p>
-                            <p className="grid-subtext">I am a Full Stack Developer with a passion for building user-friendly
+                            <p className="grid-headtext">Hello! I am Arya</p>
+                            <p className="grid-subtext">I am a Certified Full Stack Developer with a passion for building user-friendly
                                 applications and websites. I am a great team player and I have a strong understanding of
                                 Front-End and Back-End development.</p>
                         </div>
@@ -60,9 +60,9 @@ const About = () => {
                         </div>
                         <div>
                             <p className="grid-headtext">I am flexible with time zone communications & locations.</p>
-                            <p className="grid-subtext">I am based in Tampa, Florida. I am able to relocate, commute,
+                            <p className="grid-subtext">I am based near Tampa, Florida. I am able to relocate, commute,
                                 and/or work remotely anywhere in the US.</p>
-                            <Button name="Contact Me" isBeam containerClass="w-full mt-10"/>
+                            <a href="#contact"><Button name="Contact Me" isBeam containerClass="w-full mt-10"/></a>
                         </div>
                     </div>
                 </div>
@@ -75,8 +75,8 @@ const About = () => {
                             <p className="grid-subtext">
                                 Programming isn&apos;t just my profession, it&apos;s my passion. I love to code and I am
                                 always looking for new ways to improve my skills. I am constantly learning new
-                                technologies and techniques to stay ahead of the curve. I am a firm believer in the
-                                power of technology to change the world, and I am excited to be a part of that change.
+                                technologies, languages, and techniques to stay ahead of the curve. I am a firm believer in the
+                                power of technology to change the world and I am excited to be a part of that change.
                             </p>
                         </div>
                     </div>

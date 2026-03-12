@@ -22,16 +22,16 @@ const Hero = () => {
     }, []);
 
     return (
-        <section id="home" className="min-h-screen w-full flex flex-col relative">
+        <section id="home" className="min-h-screen w-full flex items-center justify-center relative">
             <div className="w-full h-full absolute inset-0 z-0">
                 <Canvas className="w-full h-full">
-                    <Suspense fallback={<CanvasLoader />}>
-                        <PerspectiveCamera ref={cameraRef} makeDefault position={[0, 0, 30]} />
-                        <Stars />
+                    <Suspense fallback={<CanvasLoader/>}>
+                        <PerspectiveCamera ref={cameraRef} makeDefault position={[0, 0, 30]}/>
+                        <Stars/>
                     </Suspense>
                 </Canvas>
             </div>
-            <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3 z-10">
+            <div className="w-full mx-auto flex flex-col c-space gap-3 z-10 items-center justify-center">
                 <p className="sm:text-3xl text-2xl font-medium text-white text-center font-generalsans mb-10 mt-28">
                     Hi, I am <span className="text-logo">Arya Bhavsar </span>
                 </p>
